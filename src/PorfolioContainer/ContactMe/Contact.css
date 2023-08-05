@@ -1,0 +1,49 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins SemiBold";
+    padding: 40px 40px;
+}
+
+.ContactForm{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins SemiBold";
+    align-items: center;
+    width: 100%;
+    height: 550px;
+     box-shadow: 1px 10px 10px 10px rgb(49, 115, 214);
+ padding: 20px;
+}
+
+.ContactForm input{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    border-color: rgba(121, 20, 121, 0.863);
+    text-align: center;
+}
+
+.ContactForm button{
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  box-shadow: 1px 1px 1px 1px rgba(107, 241, 107, 0.747);
+  border: 1px solid;
+  transition: 0.8s;
+}
+
+
+.ContactForm button:hover{
+    background-color: lime;
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 1px 1px 1px 1px #0000008e;
+    transition: 0.8s;
+}
+
+@media screen and (max-width:381px) {
+    .parent{
+        padding: 50px 40px;
+    }
+}
