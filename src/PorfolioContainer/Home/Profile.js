@@ -11,7 +11,7 @@ export default function Profile() {
             <div className='profile-details'>
                 <div className='colz'>
                     <div className='colz-icon'>
-                    <a href='https://www.facebook.com/profile.php?id=61552083300858' target='_blank' rel="noreferrer">
+                    <a href='' target='_blank' rel="noreferrer">
                         <i className='fa fa-facebook-square'></i>
                     </a>
                     <a href='https://twitter.com/narek2000000000' target='_blank' rel="noreferrer">
